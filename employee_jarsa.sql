@@ -32,6 +32,18 @@ INSERT INTO employee VALUES('E2','Diego','Garcia','D3');
 INSERT INTO employee VALUES('E3','Jose','Martinez','D4');
 INSERT INTO employee VALUES('E4','Ernesto','Gonzalez','D6');
 
+--SQL3
+INSERT INTO employee VALUES('B1','Alejandro','Gonzalez');
+INSERT INTO employee VALUES('B2','Carlos','Gonzalez');
+INSERT INTO employee VALUES('B3','Octavio','Aguilera');
+INSERT INTO employee VALUES('B4','Samuel','Aguirre');
+
+UPDATE employee SET boss='B1' WHERE department='D1';
+UPDATE employee SET boss='B2' WHERE department='D3';
+UPDATE employee SET boss='B3' WHERE department='D4';
+UPDATE employee SET boss='B4' WHERE department='D6';
+--SQL3
+
 CREATE TABLE employee_hobby
 (
   id character varying(10) NOT NULL,
