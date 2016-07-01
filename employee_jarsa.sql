@@ -25,7 +25,7 @@ CREATE TABLE employee (
   CONSTRAINT "PK_employee" PRIMARY KEY (id),
   CONSTRAINT "FK_departmentID" FOREIGN KEY (department)
       REFERENCES employee_department (id)
-);
+); 
 
 INSERT INTO employee VALUES('E1','Ricardo','Escobedo','D1');
 INSERT INTO employee VALUES('E2','Diego','Garcia','D3');
